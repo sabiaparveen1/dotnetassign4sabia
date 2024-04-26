@@ -1,0 +1,19 @@
+# Ignore bin and obj directories
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore user-specific files
+.vs/
+*.suo
+*.user
+
+# Ignore environment-specific configurations
+appsettings.*.json
+
+# Ignore sensitive information
+*.secrets.json
