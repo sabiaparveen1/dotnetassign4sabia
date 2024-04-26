@@ -1,0 +1,304 @@
+{
+  "rpgAPI.dll": {
+    "/home/knoldus/Documents/dotnetassignment4/dotnetassign4sabia/src/rpgAPI/Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "4": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 76,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/knoldus/Documents/dotnetassignment4/dotnetassign4sabia/src/rpgAPI/Service/CharacterService.cs": {
+      "rpgAPI.Service.CharacterService": {
+        "rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::GetAllCharacter()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        },
+        "rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::AddCharacter(rpgAPI.Model.Character)": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "38": 1
+          },
+          "Branches": []
+        },
+        "rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character> rpgAPI.Service.CharacterService::GetCharacterById(System.Int32)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 49,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::UpdateCharacter(rpgAPI.Model.Character)": {
+          "Lines": {
+            "60": 1,
+            "61": 1,
+            "63": 3,
+            "65": 1,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "70": 1,
+            "71": 1,
+            "73": 1,
+            "75": 1
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 49,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>> rpgAPI.Service.CharacterService::DeleteCharacter(System.Int32)": {
+          "Lines": {
+            "78": 1,
+            "79": 1,
+            "81": 3,
+            "83": 1,
+            "84": 1,
+            "85": 4,
+            "86": 1,
+            "88": 1,
+            "89": 1,
+            "91": 1
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 49,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void rpgAPI.Service.CharacterService::.cctor()": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/knoldus/Documents/dotnetassignment4/dotnetassign4sabia/src/rpgAPI/Model/Character.cs": {
+      "rpgAPI.Model.Character": {
+        "System.Int32 rpgAPI.Model.Character::get_Id()": {
+          "Lines": {
+            "10": 29
+          },
+          "Branches": []
+        },
+        "System.String rpgAPI.Model.Character::get_Name()": {
+          "Lines": {
+            "12": 37
+          },
+          "Branches": []
+        },
+        "System.Int32 rpgAPI.Model.Character::get_HitPoint()": {
+          "Lines": {
+            "14": 34
+          },
+          "Branches": []
+        },
+        "System.Int32 rpgAPI.Model.Character::get_Strength()": {
+          "Lines": {
+            "16": 34
+          },
+          "Branches": []
+        },
+        "System.Int32 rpgAPI.Model.Character::get_Defense()": {
+          "Lines": {
+            "18": 34
+          },
+          "Branches": []
+        },
+        "System.Int32 rpgAPI.Model.Character::get_Intelligence()": {
+          "Lines": {
+            "20": 34
+          },
+          "Branches": []
+        },
+        "rpgAPI.Model.RPGClass rpgAPI.Model.Character::get_CharacterClass()": {
+          "Lines": {
+            "22": 34
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/knoldus/Documents/dotnetassignment4/dotnetassign4sabia/src/rpgAPI/Model/ServiceResponse.cs": {
+      "rpgAPI.Model.ServiceResponse`1": {
+        "T rpgAPI.Model.ServiceResponse`1::get_Data()": {
+          "Lines": {
+            "11": 17
+          },
+          "Branches": []
+        },
+        "System.Boolean rpgAPI.Model.ServiceResponse`1::get_Success()": {
+          "Lines": {
+            "13": 14
+          },
+          "Branches": []
+        },
+        "System.String rpgAPI.Model.ServiceResponse`1::get_Message()": {
+          "Lines": {
+            "15": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/knoldus/Documents/dotnetassignment4/dotnetassign4sabia/src/rpgAPI/Controller/CharacterController.cs": {
+      "rpgAPI.Controller.CharacterController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::GetCharacter()": {
+          "Lines": {
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<rpgAPI.Model.Character>> rpgAPI.Controller.CharacterController::GetId(System.Int32)": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::PostCharacter(rpgAPI.Model.Character)": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::UpdateCharacter(rpgAPI.Model.Character)": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<rpgAPI.Model.ServiceResponse`1<System.Collections.Generic.List`1<rpgAPI.Model.Character>>> rpgAPI.Controller.CharacterController::DeleteCharacter(System.Int32)": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        },
+        "System.Void rpgAPI.Controller.CharacterController::.ctor(rpgAPI.Service.ICharacterService)": {
+          "Lines": {
+            "16": 5,
+            "17": 5,
+            "18": 5,
+            "19": 5
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
